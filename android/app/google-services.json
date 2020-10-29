@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "668957313584",
+    "firebase_url": "https://whatsapp-36cd8.firebaseio.com",
+    "project_id": "whatsapp-36cd8",
+    "storage_bucket": "whatsapp-36cd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668957313584:android:faf13172c1b1773b",
+        "android_client_info": {
+          "package_name": "com.cursoflutter.jamiltondamasceno.whastapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668957313584-rgsj9ekl88r7m628909s48ogigancvi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdMIgyKpC_c2hHfD6M06VS271uCkBGQhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668957313584-rgsj9ekl88r7m628909s48ogigancvi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
