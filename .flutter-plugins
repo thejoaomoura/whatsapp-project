@@ -1,6 +1,6 @@
 # This is a generated file; do not edit or check into version control.
-cloud_firestore=C:\\flutter\\sdk\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore-0.12.5+2\\
-firebase_auth=C:\\flutter\\sdk\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth-0.11.1+7\\
-firebase_core=C:\\flutter\\sdk\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-0.4.0+6\\
-firebase_storage=C:\\flutter\\sdk\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_storage-3.0.2\\
-image_picker=C:\\flutter\\sdk\\.pub-cache\\hosted\\pub.dartlang.org\\image_picker-0.6.0+10\\
+cloud_firestore=c:\\flutter\\sdk\\.pub-cache\\hosted\\pub.dartlang.org\\cloud_firestore-0.12.5+2\\
+firebase_auth=c:\\flutter\\sdk\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_auth-0.11.1+7\\
+firebase_core=c:\\flutter\\sdk\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_core-0.4.0+6\\
+firebase_storage=c:\\flutter\\sdk\\.pub-cache\\hosted\\pub.dartlang.org\\firebase_storage-3.0.2\\
+image_picker=c:\\flutter\\sdk\\.pub-cache\\hosted\\pub.dartlang.org\\image_picker-0.6.0+10\\

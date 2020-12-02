@@ -1,4 +1,4 @@
-package com.cursoflutter.jamiltondamasceno.whastapp;
+package com.projetoflutter.whastapp;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

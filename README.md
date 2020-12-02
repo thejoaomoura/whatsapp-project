@@ -1,16 +1,3 @@
 # whastapp
 
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Fiz essa aplicação inspirada no aplicativo mensageiro "WhatsApp" com base no conhecimento que adquiri ao longo do curso de Flutter. Ele não está 100% funcional e nem muito completo, fiz o básico que foi pedido e mais algumas coisas. Eu tive diversos problemas para emular a aplicação então pode acontecer de enfrentar algum erro, tela branca, ou falta de algum arquivo ao tentar executar, qualquer dúvida me contate. Obrigado :)
