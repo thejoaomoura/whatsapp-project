@@ -1,0 +1,46 @@
+name: CI Flutter (PR)
+
+on:
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  validar-e-buildar:
+    name: Validar, testar e gerar APK debug
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: '📥 Checkout do repositório'
+        uses: actions/checkout@v4
+
+      - name: '☕ Configurar Java'
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: '🐦 Configurar Flutter'
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: '📦 Instalar dependências'
+        run: flutter pub get
+
+      - name: '🔎 Analisar lint e qualidade'
+        run: flutter analyze
+
+      - name: '🧪 Executar testes unitários'
+        run: flutter test
+
+      - name: '🏗️ Gerar APK debug'
+        run: flutter build apk --debug
+
+      - name: '📤 Publicar artefato APK debug'
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-debug-apk
+          path: build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
